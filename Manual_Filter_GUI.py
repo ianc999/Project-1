@@ -39,9 +39,6 @@ def handle_btn_click_no():
     panel.configure(image=img_3)
     panel.image = img_3
 
-def hello():
-    tkinter.messagebox.showinfo("Say Hello","This is COOL!")
-
 img = ImageTk.PhotoImage(Image.open(img_list[counter]).resize((600, 600), Image.ANTIALIAS))
 panel = tkinter.Label(top, image= img)
 panel.pack(fill = "none", expand = "no")
